@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 6
+Sheet 1 5
 Title "ESP32 Sensor Module"
 Date "2020-11-23"
 Rev "v0.0.1"
@@ -51,12 +51,6 @@ Wire Wire Line
 	5800 3350 6500 3350
 Wire Wire Line
 	6500 3450 5800 3450
-$Sheet
-S 3450 1300 700  650 
-U 5FE12D18
-F0 "Battery" 50
-F1 "battery.sch" 50
-$EndSheet
 $Sheet
 S 2050 2500 700  1200
 U 5FE142C5
