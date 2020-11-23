@@ -193,44 +193,12 @@ F 7 "749-1523-1-ND" H 10050 2750 50  0001 C CNN "Vendor Part Name"
 $EndComp
 Wire Wire Line
 	8150 2400 8150 5950
-$Comp
-L 1546931-2:1546931-2 H_ESP_3
-U 1 1 5FC1F433
-P 7400 1400
-F 0 "H_ESP_3" V 7339 1270 50  0000 R CNN
-F 1 "1546931-2" V 7248 1270 50  0000 R CNN
-F 2 "footprints:1546931-2" H 7400 1400 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=DS&DocLang=English" H 7400 1400 50  0001 L BNN
-F 4 "1546931-2" H 7400 1400 50  0001 C CNN "Part Name"
-F 5 "TE Connectivity AMP Connectors" H 7400 1400 50  0001 C CNN "Manufacturer"
-F 6 "Digikey Canada" H 7400 1400 50  0001 C CNN "Vendor"
-F 7 "" H 7400 1400 50  0001 C CNN "digikeypn"
-F 8 "A97965-ND" H 7400 1400 50  0001 C CNN "Vendor Part Name"
-	1    7400 1400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5700 2500 7300 2500
-Wire Wire Line
-	7300 2500 7300 1800
-Wire Wire Line
-	7300 2500 8050 2500
 Wire Wire Line
 	8050 2500 8050 5950
-Connection ~ 7300 2500
-Wire Wire Line
-	5700 2600 6400 2600
 Wire Wire Line
 	7950 2600 7950 5950
 Wire Wire Line
-	7400 2700 7400 1800
-Wire Wire Line
-	5700 2700 7400 2700
-Wire Wire Line
-	7400 2700 7850 2700
-Wire Wire Line
 	7850 2700 7850 5950
-Connection ~ 7400 2700
 $Comp
 L Device:LED LED_ESP_1
 U 1 1 5FC240FF
@@ -286,22 +254,6 @@ F 6 "PTS 647 SK38 SMTR2 LFS" H 10150 2500 50  0001 C CNN "Part Name"
 F 7 "PTS647SK38SMTR2LFSCT-ND" H 10150 2500 50  0001 C CNN "Vendor Part Name"
 	1    10150 2500
 	-1   0    0    1   
-$EndComp
-$Comp
-L 1546931-2:1546931-2 H_ESP_1
-U 1 1 5FC3624B
-P 3850 1400
-F 0 "H_ESP_1" V 3789 1270 50  0000 R CNN
-F 1 "1546931-2" V 3698 1270 50  0000 R CNN
-F 2 "footprints:1546931-2" H 3850 1400 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=DS&DocLang=English" H 3850 1400 50  0001 L BNN
-F 4 "1546931-2" H 3850 1400 50  0001 C CNN "Part Name"
-F 5 "TE Connectivity AMP Connectors" H 3850 1400 50  0001 C CNN "Manufacturer"
-F 6 "Digikey Canada" H 3850 1400 50  0001 C CNN "Vendor"
-F 7 "" H 3850 1400 50  0001 C CNN "digikeypn"
-F 8 "A97965-ND" H 3850 1400 50  0001 C CNN "Vendor Part Name"
-	1    3850 1400
-	0    -1   -1   0   
 $EndComp
 $Comp
 L PTS647SK38SMTR2LFS:PTS647SK38SMTR2LFS SW_ESP_1
@@ -497,46 +449,9 @@ Wire Wire Line
 	4500 3600 3000 3600
 Wire Wire Line
 	3000 3600 3000 5950
-Wire Wire Line
-	2100 2400 3400 2400
-Wire Wire Line
-	5700 2400 6300 2400
-Wire Wire Line
-	3400 2400 3400 1800
-Connection ~ 3400 2400
-Wire Wire Line
-	3400 2400 4500 2400
-$Comp
-L 1546931-2:1546931-2 H_ESP_2
-U 1 1 5FCBDB3B
-P 6400 1400
-F 0 "H_ESP_2" V 6339 1270 50  0000 R CNN
-F 1 "1546931-2" V 6248 1270 50  0000 R CNN
-F 2 "footprints:1546931-2" H 6400 1400 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=DS&DocLang=English" H 6400 1400 50  0001 L BNN
-F 4 "1546931-2" H 6400 1400 50  0001 C CNN "Part Name"
-F 5 "TE Connectivity AMP Connectors" H 6400 1400 50  0001 C CNN "Manufacturer"
-F 6 "Digikey Canada" H 6400 1400 50  0001 C CNN "Vendor"
-F 7 "" H 6400 1400 50  0001 C CNN "digikeypn"
-F 8 "A97965-ND" H 6400 1400 50  0001 C CNN "Vendor Part Name"
-	1    6400 1400
-	0    -1   -1   0   
-$EndComp
 Connection ~ 5100 1800
 Wire Wire Line
-	3750 1800 3400 1800
-Wire Wire Line
 	5950 2050 5950 1800
-Wire Wire Line
-	6400 1800 6400 2600
-Connection ~ 6400 2600
-Wire Wire Line
-	6400 2600 7950 2600
-Wire Wire Line
-	6300 1800 6300 2400
-Connection ~ 6300 2400
-Wire Wire Line
-	6300 2400 8150 2400
 Wire Wire Line
 	10050 2400 10050 2250
 Wire Wire Line
@@ -591,52 +506,9 @@ Connection ~ 7150 3400
 Wire Wire Line
 	7150 3400 7150 5950
 Wire Wire Line
-	3850 1800 4600 1800
-Wire Wire Line
 	4600 1800 4600 1550
-Connection ~ 4600 1800
 Wire Wire Line
 	4600 1800 5100 1800
-$Comp
-L power:+3.3V #PWR0122
-U 1 1 5FDA2BCD
-P 2500 5350
-F 0 "#PWR0122" H 2500 5200 50  0001 C CNN
-F 1 "+3.3V" H 2515 5523 50  0000 C CNN
-F 2 "" H 2500 5350 50  0001 C CNN
-F 3 "" H 2500 5350 50  0001 C CNN
-	1    2500 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0123
-U 1 1 5FDF4623
-P 2900 5300
-F 0 "#PWR0123" H 2900 5050 50  0001 C CNN
-F 1 "GND" H 2905 5127 50  0000 C CNN
-F 2 "" H 2900 5300 50  0001 C CNN
-F 3 "" H 2900 5300 50  0001 C CNN
-	1    2900 5300
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VS #PWR0124
-U 1 1 5FDF5FF7
-P 2700 5550
-F 0 "#PWR0124" H 2500 5400 50  0001 C CNN
-F 1 "VS" H 2715 5723 50  0000 C CNN
-F 2 "" H 2700 5550 50  0001 C CNN
-F 3 "" H 2700 5550 50  0001 C CNN
-	1    2700 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 5350 2500 5950
-Wire Wire Line
-	2700 5550 2700 5950
-Wire Wire Line
-	2900 5950 2900 5300
-NoConn ~ 2400 5950
 NoConn ~ 2600 5950
 NoConn ~ 2800 5950
 $Comp
@@ -660,4 +532,58 @@ Wire Wire Line
 	5100 5050 5100 5200
 Wire Wire Line
 	5500 5200 5700 5200
+Wire Wire Line
+	5700 2600 7950 2600
+Wire Wire Line
+	5700 2400 8150 2400
+Wire Wire Line
+	5700 2500 8050 2500
+Wire Wire Line
+	5700 2700 7850 2700
+Wire Wire Line
+	2100 2400 4500 2400
+Wire Wire Line
+	4600 1800 2400 1800
+Wire Wire Line
+	2400 1800 2400 5950
+Connection ~ 4600 1800
+Wire Wire Line
+	2500 5350 2500 5950
+Wire Wire Line
+	2700 5550 2700 5950
+Wire Wire Line
+	2900 5950 2900 5300
+$Comp
+L power:GND #PWR0123
+U 1 1 5FDF4623
+P 2900 5300
+F 0 "#PWR0123" H 2900 5050 50  0001 C CNN
+F 1 "GND" H 2905 5127 50  0000 C CNN
+F 2 "" H 2900 5300 50  0001 C CNN
+F 3 "" H 2900 5300 50  0001 C CNN
+	1    2900 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VS #PWR0124
+U 1 1 5FDF5FF7
+P 2700 5550
+F 0 "#PWR0124" H 2500 5400 50  0001 C CNN
+F 1 "VS" H 2715 5723 50  0000 C CNN
+F 2 "" H 2700 5550 50  0001 C CNN
+F 3 "" H 2700 5550 50  0001 C CNN
+	1    2700 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0122
+U 1 1 5FDA2BCD
+P 2500 5350
+F 0 "#PWR0122" H 2500 5200 50  0001 C CNN
+F 1 "+3.3V" H 2515 5523 50  0000 C CNN
+F 2 "" H 2500 5350 50  0001 C CNN
+F 3 "" H 2500 5350 50  0001 C CNN
+	1    2500 5350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

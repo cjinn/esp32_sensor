@@ -319,38 +319,6 @@ Text HLabel 2100 3800 0    50   Output ~ 0
 IMU_INT1
 Text HLabel 2100 3900 0    50   Output ~ 0
 IMU_INT2
-$Comp
-L 1546931-2:1546931-2 H_IMU_1
-U 1 1 5FD93D24
-P 2200 4600
-F 0 "H_IMU_1" V 2047 4830 50  0000 L CNN
-F 1 "1546931-2" V 2138 4830 50  0000 L CNN
-F 2 "footprints:1546931-2" H 2200 4600 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=DS&DocLang=English" H 2200 4600 50  0001 L BNN
-F 4 "1546931-2" H 2200 4600 50  0001 C CNN "Part Name"
-F 5 "TE Connectivity AMP Connectors" H 2200 4600 50  0001 C CNN "Manufacturer"
-F 6 "Digikey Canada" H 2200 4600 50  0001 C CNN "Vendor"
-F 7 "" H 2200 4600 50  0001 C CNN "digikeypn"
-F 8 "A97965-ND" H 2200 4600 50  0001 C CNN "Vendor Part Name"
-	1    2200 4600
-	0    1    1    0   
-$EndComp
-$Comp
-L 1546931-2:1546931-2 H_IMU_3
-U 1 1 5FD94A28
-P 3000 4600
-F 0 "H_IMU_3" V 2847 4830 50  0000 L CNN
-F 1 "1546931-2" V 2938 4830 50  0000 L CNN
-F 2 "footprints:1546931-2" H 3000 4600 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=DS&DocLang=English" H 3000 4600 50  0001 L BNN
-F 4 "1546931-2" H 3000 4600 50  0001 C CNN "Part Name"
-F 5 "TE Connectivity AMP Connectors" H 3000 4600 50  0001 C CNN "Manufacturer"
-F 6 "Digikey Canada" H 3000 4600 50  0001 C CNN "Vendor"
-F 7 "" H 3000 4600 50  0001 C CNN "digikeypn"
-F 8 "A97965-ND" H 3000 4600 50  0001 C CNN "Vendor Part Name"
-	1    3000 4600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2200 4200 2200 3200
 Connection ~ 2200 3200
@@ -398,4 +366,36 @@ Wire Wire Line
 Connection ~ 2700 3900
 Wire Wire Line
 	2700 3900 5350 3900
+$Comp
+L 1546931-2:1546931-2 H_IMU_3
+U 1 1 5FD94A28
+P 3000 4600
+F 0 "H_IMU_3" V 2847 4830 50  0000 L CNN
+F 1 "1546931-2" V 2938 4830 50  0000 L CNN
+F 2 "footprints:1546931-2" H 3000 4600 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=DS&DocLang=English" H 3000 4600 50  0001 L BNN
+F 4 "1546931-2" H 3000 4600 50  0001 C CNN "Part Name"
+F 5 "TE Connectivity AMP Connectors" H 3000 4600 50  0001 C CNN "Manufacturer"
+F 6 "Digikey Canada" H 3000 4600 50  0001 C CNN "Vendor"
+F 7 "" H 3000 4600 50  0001 C CNN "digikeypn"
+F 8 "A97965-ND" H 3000 4600 50  0001 C CNN "Vendor Part Name"
+	1    3000 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L 1546931-2:1546931-2 H_IMU_1
+U 1 1 5FD93D24
+P 2200 4600
+F 0 "H_IMU_1" V 2047 4830 50  0000 L CNN
+F 1 "1546931-2" V 2138 4830 50  0000 L CNN
+F 2 "footprints:1546931-2" H 2200 4600 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=DS&DocLang=English" H 2200 4600 50  0001 L BNN
+F 4 "1546931-2" H 2200 4600 50  0001 C CNN "Part Name"
+F 5 "TE Connectivity AMP Connectors" H 2200 4600 50  0001 C CNN "Manufacturer"
+F 6 "Digikey Canada" H 2200 4600 50  0001 C CNN "Vendor"
+F 7 "" H 2200 4600 50  0001 C CNN "digikeypn"
+F 8 "A97965-ND" H 2200 4600 50  0001 C CNN "Vendor Part Name"
+	1    2200 4600
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

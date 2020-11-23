@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 6 5
+Sheet 5 5
 Title "ESP32 Sensor Module | Connector"
 Date "2020-11-23"
 Rev "v0.0.1"
