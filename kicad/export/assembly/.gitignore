@@ -1,0 +1,3 @@
+# All BOM files here can be committed
+!*.xml
+!*.csv

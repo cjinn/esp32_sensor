@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "(5.1.7)-1"
+      "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2020-11-25T11:44:14-08:00"
+    "CreationDate":  "2021-03-31T16:36:22-07:00"
   },
   "GeneralSpecs":
   {
@@ -15,12 +15,12 @@
     {
       "Name": "esp32_sensor",
       "GUID": "65737033-325f-4736-956e-736f722e6b69",
-      "Revision": "v0.0.3b"
+      "Revision": "v0.0.3c"
     },
     "Size":
     {
-      "X": 58.647,
-      "Y": 61.314
+      "X": 0.000,
+      "Y": 0.000
     },
     "LayerNumber": 2,
     "BoardThickness":  1.000
